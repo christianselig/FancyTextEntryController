@@ -1,5 +1,7 @@
 # 🍅 FancyTextEntryController
 
+<img src="fancytextentrycontroller.png" width="410" alt="UIAlertController titled 'Filter Criteria' with two text fields, 'Author', and 'Subreddit', where the 'Add' button is disabled due to text fields not passing validation.">
+
 A simpler/easier API for adding text fields to `UIAlertController`s. Not a custom view, just uses good ol' `UIAlertController`.
 
 - Easy text field validation. Specify `none`, a length range (e.g.: `2 ..< 10`) and only text that is between >= 2 and <= 9 characters long will be accepted, and finally a regular expression option that will let you specify a pattern for validation, for instance if you want to allow alphanumerics, but not whitespace. If the text isn't valid, the "Add" button is disabled
