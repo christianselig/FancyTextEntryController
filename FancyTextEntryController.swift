@@ -32,7 +32,8 @@ class FancyTextEntryController: UIAlertController {
     static func create(withTitle title: String, message: String? = nil, addButtonTitle: String = "Add", cancelButtonTitle: String = "Cancel", addAction: ((FancyTextEntryController) -> Void)? = nil) -> FancyTextEntryController {
         let alertController = FancyTextEntryController(title: title, message: message, preferredStyle: .alert)
         
-        let addAction = UIAlertAction(title: addButtonTitle, style: .default) { action in
+        let addAction = UIAlertAction(title: addButtonTitle, style: .default) { [weak alertController] action in
+            guard let alertController = alertController else { return }
             addAction?(alertController)
         }
         
