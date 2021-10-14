@@ -4,10 +4,10 @@
 
 A simpler/easier API for adding text fields to `UIAlertController`s. Not a custom view, just uses good ol' `UIAlertController`.
 
-- Easy text field validation. Specify `none`, a length range (e.g.: `2 ..< 10`) and only text that is between >= 2 and <= 9 characters long will be accepted, and finally a regular expression option that will let you specify a pattern for validation, for instance if you want to allow alphanumerics, but not whitespace. If the text isn't valid, the "Add" button is disabled
+- Easy text field validation. Specify `none`, or a length range (e.g.: `2 ..< 10`) and only text that is between >= 2 and <= 9 characters long will be accepted, or finally a regular expression option that will let you specify a pattern for validation, for instance if you want to allow alphanumerics, but not whitespace. If the text isn't valid, the "Add" button is disabled
 - Less boilerplate code
 - This validation applies to multiple text fields, not only one
-- Makes the font of the text field's a bit larger/easier to see
+- Makes the font of the text fields a bit larger/easier to see
 
 ## Example
 
