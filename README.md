@@ -7,7 +7,7 @@ A simpler/easier API for adding text fields to `UIAlertController`s. Not a custo
 - This validation applies to multiple text fields, not only one
 - Makes the font of the text field's a bit larger/easier to see
 
-### Example
+## Example
 
 Create it, add some text fields, then present it.
 
@@ -25,6 +25,6 @@ alertController.addTextField(withPrepopulatedText: nil, placeholder: "Subreddit"
 present(alertController, animated: true, completion: nil)
 ```
 
-### Installation
+## Installation
 
 Drag and drop `FancyTextEntryController.swift` into your project. When the code is this small and simple it becomes yours to raise as your child, no need for package managers!
